@@ -1,0 +1,29 @@
+@use "../../scss/colors";
+
+.qrcode {
+  width: 340px;
+  height: 530px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px;
+
+  .image {
+    height: 60%;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+  }
+
+  .text {
+    text-align: center;
+    padding: 0px 19px;
+
+    p {
+      color: colors.$grayis-blue;
+    }
+  }
+}
